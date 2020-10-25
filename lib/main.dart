@@ -3,6 +3,9 @@ import 'dart:math';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
+import 'package:implicit_animation_container/back_and_forth.dart';
+import 'package:implicit_animation_container/dynamic_tween_animation_builder.dart';
+import 'package:implicit_animation_container/tween_animation_builder.dart';
 
 void main() {
   runApp(MyApp());
@@ -14,7 +17,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
 
-      home: ImplicitContainer(),
+      home: BackAndForth(),
     );
   }
 }
